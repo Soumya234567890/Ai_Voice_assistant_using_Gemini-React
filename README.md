@@ -1,12 +1,69 @@
-# React + Vite
+# 🎙️ AI Voice Assistant with React + Gemini API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An intelligent **AI-powered Voice Assistant** built using **React** and integrated with the **Google Gemini API**.  
+This project enables users to interact with an AI assistant using **natural voice commands**, making conversations seamless and engaging.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Real-time **Speech Recognition**  
+✅ **AI-generated responses** using Google Gemini API  
+✅ **Text-to-Speech (TTS)** for reading responses aloud  
+✅ Simple and intuitive **chat interface**  
+✅ Responsive design - works across desktop and mobile browsers  
+✅ Powered entirely by **React** frontend + Gemini API backend integration  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎬 Demo
+
+[Insert your project demo link here if hosted (e.g., Netlify, Vercel, GitHub Pages)]
+
+---
+
+## 🚀 Tech Stack
+
+- **Frontend:** React, HTML5, CSS3
+- **Speech Recognition:** Web Speech API
+- **AI API:** Google Gemini API
+- **Text-to-Speech:** Web Speech API
+- **State Management:** React Hooks / Context API
+
+---
+
+## 📸 Screenshots
+
+[Insert screenshots of your project UI here]  
+Example: Chat interface, Voice input, AI responses being read aloud.
+
+---
+
+## ⚙️ Installation & Setup
+
+1️⃣ Clone the repository:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+```
+2️⃣ Navigate to the project directory:
+
+```
+
+cd your-repo-name
+```
+3️⃣ Install dependencies:
+
+```
+
+npm install
+```
+4️⃣ Create a .env file in the root of your project and add your Gemini API key:
+
+env
+
+REACT_APP_GEMINI_API_KEY=your_gemini_api_key_here
+5️⃣ Start the development server:
+
+```
+
+npm start
+```
