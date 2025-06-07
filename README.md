@@ -59,8 +59,9 @@ npm install
 4️⃣ Create a .env file in the root of your project and add your Gemini API key:
 
 env
-
 REACT_APP_GEMINI_API_KEY=your_gemini_api_key_here
+
+
 5️⃣ Start the development server:
 
 ```
